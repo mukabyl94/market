@@ -1,2 +1,9 @@
-package productStore.product.maetProduct;public class Sausage {
+package productStore.product.maetProduct;
+
+import java.time.LocalDate;
+
+public class Sausage extends MeatProduct{
+    public Sausage(int id, String name, String companyName, LocalDate date) {
+        super(id, name, companyName, date);
+    }
 }

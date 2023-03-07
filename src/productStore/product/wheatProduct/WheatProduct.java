@@ -1,15 +1,20 @@
 package productStore.product.wheatProduct;
 
-public class Wheat extends SuperMarket {
-    public Wheat(String productOne, String productTwo, String productThree) {
-        super(productOne, productTwo, productThree);
-    }
+import productStore.product.Product;
 
-    public Wheat() {
+import java.time.LocalDate;
+
+public abstract class WheatProduct extends Product {
+    public WheatProduct(int id, String name, String companyName, LocalDate date) {
+        super(id, name, companyName, date);
     }
 
     @Override
     public String toString() {
-        return "Wheat{}";
+        return "Product " +
+                " id " + getId() +
+                " name " + getName() +
+                " companyName " + getCompanyName() +
+                " date " + getDate();
     }
 }

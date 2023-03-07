@@ -2,20 +2,20 @@ package productStore.product;
 
 import java.time.LocalDate;
 
-public abstract class SuperMarket {
+public abstract class Product {
    private int id;
    private String name;
    private String companyName;
    private LocalDate date;
 
-    public SuperMarket(int id, String name, String companyName, LocalDate date) {
+    public Product(int id, String name, String companyName, LocalDate date) {
         this.id = id;
         this.name = name;
         this.companyName = companyName;
         this.date = date;
     }
 
-    public SuperMarket() {
+    public Product() {
     }
 
     public int getId() {

@@ -1,15 +1,20 @@
 package productStore.product.maetProduct;
 
-public class Meat extends SuperMarket {
-    public Meat(String productOne, String productTwo, String productThree) {
-        super(productOne, productTwo, productThree);
-    }
+import productStore.product.Product;
 
-    public Meat() {
+import java.time.LocalDate;
+
+public abstract class MeatProduct extends Product {
+    public MeatProduct(int id, String name, String companyName, LocalDate date) {
+        super(id, name, companyName, date);
     }
 
     @Override
     public String toString() {
-        return "Meat{}";
+        return "Product " +
+                " id " + getId() +
+                " name " + getName() +
+                " companyName " + getCompanyName() +
+                " date " + getDate();
     }
 }

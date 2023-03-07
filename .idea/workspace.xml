@@ -1,11 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2d5d8c0-3495-4d43-9afa-739b45c3f879" name="Changes" comment="" />
+    <list default="true" id="a2d5d8c0-3495-4d43-9afa-739b45c3f879" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StoreService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StoreService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/productStore/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/productStore/product/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/productStore/product/maetProduct/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/productStore/product/maetProduct/Fish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/productStore/product/maetProduct/LampMeat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/productStore/product/maetProduct/LampMeat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/productStore/product/maetProduct/MeatProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/productStore/product/maetProduct/MeatProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/productStore/product/maetProduct/Sausage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/productStore/product/maetProduct/Sausage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/productStore/product/milkProduct/CottageCheese.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/productStore/product/milkProduct/CottageCheese.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/productStore/product/milkProduct/Milk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/productStore/product/milkProduct/Milk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/productStore/product/milkProduct/MilkyProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/productStore/product/milkProduct/MilkyProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/productStore/product/milkProduct/Yogurt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/productStore/product/milkProduct/Yogurt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/productStore/product/wheatProduct/Bread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/productStore/product/wheatProduct/Bread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/productStore/product/wheatProduct/Bun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/productStore/product/wheatProduct/Bun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/productStore/product/wheatProduct/Pie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/productStore/product/wheatProduct/Pie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/productStore/product/wheatProduct/WheatProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/productStore/product/wheatProduct/WheatProduct.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
@@ -16,12 +52,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

@@ -1,15 +1,20 @@
 package productStore.product.milkProduct;
 
-public class Milky extends SuperMarket {
-    public Milky(String productOne, String productTwo, String productThree) {
-        super(productOne, productTwo, productThree);
-    }
+import productStore.product.Product;
 
-    public Milky() {
+import java.time.LocalDate;
+
+public abstract class MilkyProduct extends Product {
+    public MilkyProduct(int id, String name, String companyName, LocalDate date) {
+        super(id, name, companyName, date);
     }
 
     @Override
     public String toString() {
-        return "Milky{}";
+        return "Product " +
+                " id " + getId() +
+                " name " + getName() +
+                " companyName " + getCompanyName() +
+                " date " + getDate();
     }
 }
